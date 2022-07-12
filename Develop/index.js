@@ -5,9 +5,6 @@ const inquirer = require("inquirer");
 // TODO: Create an array of questions for user input
 const generateReadMe = function(data) {
     return `# ${data.title}
-    ---
-    
-    ![${data.license}](https://img.shields.io/badge/license-${data.license}-green) This project is licensed under the ${data.license} license.
 
     ## Table of Contents
     1.[Installation](#installation)
