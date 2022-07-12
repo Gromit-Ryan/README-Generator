@@ -1,8 +1,10 @@
 // TODO: Include packages needed for this application
+// fs will write to files and inquirer will ask the prompts and save the answers
 const fs = require("fs");
 const inquirer = require("inquirer");
 
 // TODO: Create an array of questions for user input
+// Layout of the readme file with a parameter for data
 const generateReadMe = function(data) {
     return `# ${data.title}
 
@@ -34,6 +36,7 @@ const generateReadMe = function(data) {
     ${data.questions}`
 };
 
+// Questions for the inquirer prompt. It then saves the answers in the array
 const questions = [
     {
         type: "input",
@@ -94,6 +97,8 @@ const questions = [
     }];
 
 // TODO: Create a function to write README file
+// Will run inquirer prompt for the answers .then will use those answers and insert the answers into the generateReadMe layout and will print the file named
+// README.txt to the Develop file
 function writeToFile(fileName, data) {
     inquirer
         .prompt(questions)
@@ -106,6 +111,7 @@ function writeToFile(fileName, data) {
 
 
 // TODO: Create a function to initialize app
+// Simply initializing the writeToFile function
 function init() {
     writeToFile();
 }
