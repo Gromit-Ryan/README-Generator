@@ -15,22 +15,22 @@ const generateReadMe = function(data) {
     6.[Test](#test)
     7.[Questions](#questions)
     
-    ## Description
+    #Description
     ${data.description}
     
-    ## Installation
+    #Installation
     ${data.install}
     
-    ## Usage Information
+    #Usage Information
     ${data.usage}
     
-    ## Contribution
+    #Contribution
     ${data.contribution}
     
-    ## Test
+    #Test
     ${data.test}
     
-    ## Questions
+    #Questions
     ${data.questions}`
 };
 
@@ -64,6 +64,11 @@ const questions = [
         type: "input",
         name: "test",   
         message: "Please enter testing instructions."
+    },
+    {
+        type: "input",
+        name: "questions",
+        message: "Please enter any questions"
     },
     {
         type: "list",

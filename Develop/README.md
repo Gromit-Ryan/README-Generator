@@ -9,20 +9,20 @@
     6.[Test](#test)
     7.[Questions](#questions)
     
-    ## Description
+    #Description
     testing the readme generator
     
-    ## Installation
+    #Installation
     in integrated terminal run npm i
     
-    ## Usage Information
+    #Usage Information
     Used to generate a read me with different kinds of instructions
     
-    ## Contribution
+    #Contribution
     N/A
     
-    ## Test
+    #Test
     Open an integrated terminal and run node index.js
     
-    ## Questions
+    #Questions
     undefined
