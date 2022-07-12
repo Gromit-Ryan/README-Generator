@@ -9,13 +9,13 @@
 7. [Questions](#questions)
 
 # Description
-testing the readme generator
+A README generator that will generate high quality README files for our projects
 
 # Installation
-in integrated terminal run npm i
+In integrated terminal run npm i
 
 # Usage Information
-Used to generate a read me with different kinds of instructions
+N/A
 
 # Contribution
 N/A
